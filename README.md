@@ -90,3 +90,17 @@ git branch -d anpavlovsk_Ticket0897
 git push origin --delete anpavlovsk_Ticket0897
 
 ````
+### Git - tags on GitHub
+````
+git tag
+git tag v1.0.0
+git tag -a v1.2.0 7h54f
+git push origin v1.0.0
+
+git chechout v2.0.0
+
+git tag -d v1.1.1
+git push origin --delete v1.1.1
+
+git log --pretyy=online
+````
