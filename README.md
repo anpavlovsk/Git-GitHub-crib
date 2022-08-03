@@ -63,3 +63,18 @@ git branch -d test
 git branch -D test
 
 ````
+### Git - return to previous version
+````
+git log
+git log checkout 1ba4
+git chechout main
+
+#Delete commits
+git reset --hard HEAD~2
+
+#Delete commit logs
+git reset --soft HEAD~3
+
+#To change last commit 
+git commit --amend
+````
