@@ -78,3 +78,15 @@ git reset --soft HEAD~3
 #To change last commit 
 git commit --amend
 ````
+### Git and GitHub - full working cycle
+````
+git clone git@github.com:anpavlovsk/Git-GitHub-crib.git
+git checkout -b anpavlovsk_Ticket0897
+git push origin
+git push --set-upstream origin anpavlovsk_Ticket0897
+
+git checkout main
+git branch -d anpavlovsk_Ticket0897
+git push origin --delete anpavlovsk_Ticket0897
+
+````
