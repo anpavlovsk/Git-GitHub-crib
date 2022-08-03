@@ -34,9 +34,14 @@ git push origin
 ````
 # Git - login to GitHub via SSH Key
 ````
-git remote -v
-origin	git@github.com:anpavlovsk/Tools.git (fetch)
-origin	git@github.com:anpavlovsk/Tools.git (push)
+# SSH key generation
+ssh-keygen
+cat ~/.ssh/id_rsa.pub 
 
-git remote set-url origin git@github.com:anpavlovsk/Tools.git 
+#In case of https and ssh 
+git remote -v
+origin	git@github.com:anpavlovsk/Git-GitHub-crib.git (fetch)
+origin	git@github.com:anpavlovsk/Git-GitHub-crib.git (push)
+
+git remote set-url origin git@github.com:anpavlovsk/Git-GitHub-crib.git  
 ````
