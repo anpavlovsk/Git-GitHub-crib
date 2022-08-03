@@ -32,16 +32,34 @@ git checkout -- file.txt
 git clone
 git push origin
 ````
-# Git - login to GitHub via SSH Key
+### Git - login to GitHub via SSH Key
 ````
 # SSH key generation
 ssh-keygen
 cat ~/.ssh/id_rsa.pub 
 
-#In case of https and ssh 
+#In case CODE https or ssh 
 git remote -v
 origin	git@github.com:anpavlovsk/Git-GitHub-crib.git (fetch)
 origin	git@github.com:anpavlovsk/Git-GitHub-crib.git (push)
 
 git remote set-url origin git@github.com:anpavlovsk/Git-GitHub-crib.git  
+````
+### Git - Branch
+````
+git branch
+git branch test
+git checkout test
+#or
+git checkout -b test
+
+#Merge 
+git checkout main
+get megre test
+
+#Delete branch
+git branch -d test
+#If branch is not merged
+git branch -D test
+
 ````
