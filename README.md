@@ -38,10 +38,10 @@ git push origin
 ssh-keygen
 cat ~/.ssh/id_rsa.pub 
 
-#In case CODE https or ssh 
+#To change https on ssh for access (Code)
 git remote -v
-origin	git@github.com:anpavlovsk/Git-GitHub-crib.git (fetch)
-origin	git@github.com:anpavlovsk/Git-GitHub-crib.git (push)
+origin	https://github.com/anpavlovsk/Git-GitHub-crib.git (fetch)
+origin	https://github.com/anpavlovsk/Git-GitHub-crib.git (push)
 
 git remote set-url origin git@github.com:anpavlovsk/Git-GitHub-crib.git  
 ````
